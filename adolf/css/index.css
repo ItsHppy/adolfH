@@ -1,0 +1,40 @@
+html, body, .wrapper {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+@media only screen and (min-width: 641px) {
+    .item {
+        background-color: lightblue;
+        width: 400px;
+        height: 400px;
+        display: inline-block;
+        border: 1px solid black;
+        padding: 15px;
+    }
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    background-color: darkgreen;
+}
+
+@media only screen and (max-width: 640px) {
+    .item {
+        background-color: lightblue;
+        width: 400px;
+        height: 400px;
+        display: inline-block;
+        border: 1px solid black;
+        padding: 15px;
+        font-size: 8px;
+    }
+}
